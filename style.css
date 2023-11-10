@@ -30,3 +30,119 @@ img, picture, svg, video {
     
 }
 /* --- Variables --- */
+
+navbar {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+.toggle-container {
+    display: flex;
+    justify-content: center;
+    background-color: #e8e5e480;
+    padding: 2px;
+    border-radius: 30px;
+  }
+
+  .toggle-option {
+    flex: 1;
+    text-align: center;
+  }
+
+  input[type="radio"] {
+    display: none;
+  }
+
+  input[type="radio"]:checked + label {
+    background-color: #ffffff;
+    border-radius: 30px;
+  }
+
+  label {
+    display: block;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 30px;
+    transition: background-color 0.3s ease;
+  }
+
+h1 {
+    display: flex;
+    justify-content: center;
+    font-size: 100px;
+    text-align: center;
+    flex-wrap: wrap;
+    padding: 100px 400px;
+}
+
+.middle {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.expertise {
+    padding: 5px;
+    border-radius: 30px;
+    font-weight: bold;
+}
+
+.branding , .product, .design {
+    background-color: #e8e5e480;
+    padding: 5px;
+    border-radius: 30px;
+    font-weight: bold;
+}
+
+.pictures {
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    padding-top: 150px;
+    padding-bottom: 150px;
+}
+
+.pictures img {
+    width: 100%; 
+    height: 100%; 
+    object-fit: cover; 
+    border-radius: 30px; 
+}
+
+.get-in-touch {
+    padding: 150px 0px;
+  }
+
+.touch {
+    opacity: 50%;
+}
+
+h2 {
+    display: flex;
+    justify-content: center;
+    font-size: 50px;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.footer-logo {
+    display: flex;
+    align-items: center;
+    gap: 10px
+}
+
+.links {
+    display: flex;
+    text-align: center;
+    font-weight: bold;
+    gap: 10px;
+}
